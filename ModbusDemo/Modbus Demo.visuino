@@ -1,0 +1,565 @@
+{
+  "Config": {
+    "Build": {
+      "Board": "esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,PSRAM=disabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default"
+    }
+  },
+  "Version": "2",
+  "Product": "Visuino Pro - Visual Arduino Programming",
+  "Content": "OpenWire Diagram",
+  "Units": [
+    {
+      "Type": "Diagram",
+      "Name": "__OpenWireRootUnit__",
+      "*": [
+        {
+          "X": 944,
+          "Name": "Arduino",
+          "Instance": {
+            "I2SChannels": {
+              "*": [
+                {
+                  "+": "TArduino_ESP32_I2SPDM"
+                },
+                {
+                  "+": "TArduino_ESP32_I2SPDM"
+                }
+              ]
+            },
+            "Serial": {
+              "*": [
+                {
+                  "InputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.DisplayNextion1.OutputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoBreakHardwareSerial0"
+                },
+                {
+                  "+": "TArduinoESP32DefinedPinsSerial1"
+                },
+                {
+                  "+": "TArduinoESP32DefinedPinsSerial2"
+                }
+              ]
+            },
+            "+": "TArduinoBoard",
+            "Modules": {
+              "*": [
+                {
+                  "Ethernet": {
+                    "HostName": ""
+                  },
+                  "HostName": "",
+                  "+": "TArduinoESP32WiFiModule",
+                  "ESPNow": {
+                    "PrimaryKey": {
+                      "_Data": ""
+                    }
+                  },
+                  "AccessPoint": {
+                    "SSID": "",
+                    "Password": ""
+                  }
+                },
+                {
+                  "+": "TArduinoESP32CanBusModule"
+                },
+                {
+                  "+": "TArduinoESP_BootButtonModule"
+                },
+                {
+                  "+": "TArduinoEEPROMModule"
+                },
+                {
+                  "+": "TArduinoESP32ProcessorModule"
+                },
+                {
+                  "+": "TArduinoESP32HallSensorModule"
+                },
+                {
+                  "DeviceName": "",
+                  "+": "TArduinoESP32BluetoothLEModule"
+                }
+              ]
+            },
+            "I2CChannels": {
+              "*": [
+                {
+                  "+": "TArduinoESP32_Generic_I2C"
+                },
+                {
+                  "+": "TArduinoESP32_Generic_I2C_2"
+                }
+              ]
+            },
+            "Digital": {
+              "*": [
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedPullDownAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoESP32CombinedPullDownAnalogDigitalDACChannel"
+                },
+                {
+                  "+": "TArduinoESP32CombinedPullDownAnalogDigitalDACChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoCombinedTouchPullDownAnalogDigitalInterruptChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                },
+                {
+                  "+": "TArduinoPullDownTouchAnalogInputOnlyChannel"
+                }
+              ]
+            },
+            "SPIChannels": {
+              "*": [
+                {
+                  "+": "TArduinoESP32_Generic_SPI"
+                },
+                {
+                  "+": "TArduinoESP32_Generic_SPI1"
+                },
+                {
+                  "+": "TArduinoESP32_Generic_SPI2"
+                },
+                {
+                  "+": "TArduinoESP32_Generic_SPI3"
+                }
+              ]
+            },
+            "BoardType": "ESP32 Development Board"
+          },
+          "Type": "Component",
+          "Y": 256
+        },
+        {
+          "X": 256,
+          "Name": "CustomCode3",
+          "Instance": {
+            "Members": "uint16_t array[16];",
+            "Outputs": {
+              "*": [
+                {
+                  "Name": "Integer1",
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.MultiSource1.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                },
+                {
+                  "Name": "Integer2",
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.MultiSource2.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                },
+                {
+                  "Name": "Integer3",
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.MultiSource3.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                },
+                {
+                  "Name": "Integer4",
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                },
+                {
+                  "Name": "Integer5",
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                },
+                {
+                  "Name": "Integer6",
+                  "+": "TArduinoCustomCodeOutputIntegerElement"
+                }
+              ]
+            },
+            "+": "TArduinoCustomCode",
+            "OnExecute": "if(!m.getState()){\r\n    m.poll(array,16);\r\nInteger1.Send(array[0]);\r\nInteger2.Send(array[1]);\r\nInteger3.Send(array[2]);\r\nInteger4.Send(array[3]);\r\nInteger5.Send(array[4]);\r\nInteger6.Send(array[5]);\r\n  delay(1);\r\n}else{\r\n  Serial.println(\"Err\");\r\n}",
+            "Includes": "#include <ModbusRtu.h>\r\n#include <HardwareSerial.h>\r\n\r\nHardwareSerial MySerial(2); \/\/ define a Serial for UART1\r\nconst int MySerialRX = 16;\r\nconst int MySerialTX = 17;\r\nModbus m(2, MySerial, 4);",
+            "OnStart": "  \/\/ Set the communication baud rate to 9600\r\n  Serial.begin(115200);\r\n    MySerial.begin(115200, SERIAL_8N1, MySerialRX, MySerialTX);\r\n  \/\/ Initialize the Modbus object\r\n  m.start();\r\n\r\n  \/\/ Set the communication timeout to 1000 milliseconds\r\n  m.setTimeOut(1000);"
+          },
+          "Type": "Component",
+          "Y": 1344
+        },
+        {
+          "X": 672,
+          "Name": "DisplayNextion1",
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "Name": "__OpenWireRootUnit__.Arduino.Serial.Item[ 0 ] (9600).InputPin",
+                  "ID": "__OpenWireRootUnit__.Arduino.Serial._Item0.InputPin"
+                }
+              ]
+            },
+            "@": [
+              {
+                "PinName": "Reset Display",
+                "@": "ResetDisplay",
+                "+": "TOWBooleanSinkPinBinding",
+                "Component": "DisplayNextion1"
+              }
+            ],
+            "+": "TArduinoDisplayNextion",
+            "Elements": {
+              "*": [
+                {
+                  "Name": "Text1",
+                  "Modifiers": {
+                    "*": [
+                      {
+                        "ClockInputPin": {
+                          "SourcePins": [
+                            {
+                              "Name": "__OpenWireRootUnit__.MultiSource1.OutputPins.Pin [1]",
+                              "ID": "__OpenWireRootUnit__.MultiSource1.OutputPins._Pin1"
+                            }
+                          ]
+                        },
+                        "Name": "Set String1",
+                        "Value": "",
+                        "+": "TArduinoDisplayNextionElementModifierPropertySetterString",
+                        "@": [
+                          {
+                            "PinName": "Elements.Item [ 0 ].Modifiers.Item [ 0 ].PropertyName",
+                            "@": "PropertyName",
+                            "+": "TOWStringSinkPinBinding",
+                            "Component": "DisplayNextion1"
+                          },
+                          {
+                            "PinName": "Elements.Item [ 0 ].Modifiers.Item [ 0 ].Value",
+                            "@": "Value",
+                            "+": "TOWStringSinkPinBinding",
+                            "SourcePin": {
+                              "Name": "__OpenWireRootUnit__.MultiSource1.OutputPins.Pin [0]",
+                              "ID": "__OpenWireRootUnit__.MultiSource1.OutputPins._Pin0"
+                            },
+                            "Component": "DisplayNextion1"
+                          }
+                        ],
+                        "PropertyName": "txt"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoDisplayNextionElementText",
+                  "ElementID": 2,
+                  "PageIndex": 0
+                },
+                {
+                  "ElementName": "t1",
+                  "Name": "Text2",
+                  "Modifiers": {
+                    "*": [
+                      {
+                        "ClockInputPin": {
+                          "SourcePins": [
+                            {
+                              "Name": "__OpenWireRootUnit__.MultiSource2.OutputPins.Pin [1]",
+                              "ID": "__OpenWireRootUnit__.MultiSource2.OutputPins._Pin1"
+                            }
+                          ]
+                        },
+                        "Name": "Set String1",
+                        "Value": "",
+                        "+": "TArduinoDisplayNextionElementModifierPropertySetterString",
+                        "@": [
+                          {
+                            "PinName": "Elements.Item [ 1 ].Modifiers.Item [ 0 ].PropertyName",
+                            "@": "PropertyName",
+                            "+": "TOWStringSinkPinBinding",
+                            "Component": "DisplayNextion1"
+                          },
+                          {
+                            "PinName": "Elements.Item [ 1 ].Modifiers.Item [ 0 ].Value",
+                            "@": "Value",
+                            "+": "TOWStringSinkPinBinding",
+                            "SourcePin": {
+                              "Name": "__OpenWireRootUnit__.MultiSource2.OutputPins.Pin [0]",
+                              "ID": "__OpenWireRootUnit__.MultiSource2.OutputPins._Pin0"
+                            },
+                            "Component": "DisplayNextion1"
+                          }
+                        ],
+                        "PropertyName": "txt"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoDisplayNextionElementText",
+                  "ElementID": 3,
+                  "PageIndex": 0
+                },
+                {
+                  "ElementName": "t2",
+                  "Name": "Text3",
+                  "Modifiers": {
+                    "*": [
+                      {
+                        "ClockInputPin": {
+                          "SourcePins": [
+                            {
+                              "Name": "__OpenWireRootUnit__.MultiSource3.OutputPins.Pin [1]",
+                              "ID": "__OpenWireRootUnit__.MultiSource3.OutputPins._Pin1"
+                            }
+                          ]
+                        },
+                        "Name": "Set String1",
+                        "Value": "",
+                        "+": "TArduinoDisplayNextionElementModifierPropertySetterString",
+                        "@": [
+                          {
+                            "PinName": "Elements.Item [ 2 ].Modifiers.Item [ 0 ].Value",
+                            "@": "Value",
+                            "+": "TOWStringSinkPinBinding",
+                            "SourcePin": {
+                              "Name": "__OpenWireRootUnit__.MultiSource3.OutputPins.Pin [0]",
+                              "ID": "__OpenWireRootUnit__.MultiSource3.OutputPins._Pin0"
+                            },
+                            "Component": "DisplayNextion1"
+                          }
+                        ],
+                        "PropertyName": "txt"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoDisplayNextionElementText",
+                  "ElementID": 4,
+                  "PageIndex": 0
+                },
+                {
+                  "Name": "Text4",
+                  "+": "TArduinoDisplayNextionElementText"
+                },
+                {
+                  "Name": "Text5",
+                  "+": "TArduinoDisplayNextionElementText"
+                },
+                {
+                  "Name": "Text6",
+                  "+": "TArduinoDisplayNextionElementText"
+                }
+              ]
+            }
+          },
+          "Type": "Component",
+          "Y": 1376
+        },
+        {
+          "X": 496,
+          "Name": "MultiSource1",
+          "Instance": {
+            "OutputPins": {
+              "Count": 2,
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "Name": "__OpenWireRootUnit__.DisplayNextion1.Elements.Modifiers.Set String.ValueInputPin",
+                      "ID": "__OpenWireRootUnit__.DisplayNextion1.Elements.*._0.Modifiers.*._0.ValueInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "Name": "__OpenWireRootUnit__.DisplayNextion1.Elements.Text.Modifiers.Set String.ClockInputPin",
+                      "ID": "__OpenWireRootUnit__.DisplayNextion1.Elements._Item0.Modifiers._Item0.ClockInputPin"
+                    }
+                  ]
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "Name": "__OpenWireRootUnit__.CustomCode3.Outputs.Integer.OutputPin",
+                "ID": "__OpenWireRootUnit__.CustomCode3.Outputs._Item0.OutputPin"
+              }
+            },
+            "+": "TArduinoTextMultiSource"
+          },
+          "Type": "Component",
+          "Y": 1392
+        },
+        {
+          "X": 496,
+          "Name": "MultiSource2",
+          "Instance": {
+            "OutputPins": {
+              "Count": 2,
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "Name": "__OpenWireRootUnit__.DisplayNextion1.Elements.Modifiers.Set String.ValueInputPin",
+                      "ID": "__OpenWireRootUnit__.DisplayNextion1.Elements.*._1.Modifiers.*._0.ValueInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "Name": "__OpenWireRootUnit__.DisplayNextion1.Elements.Text.Modifiers.Set String.ClockInputPin",
+                      "ID": "__OpenWireRootUnit__.DisplayNextion1.Elements._Item1.Modifiers._Item0.ClockInputPin"
+                    }
+                  ]
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "Name": "__OpenWireRootUnit__.CustomCode3.Outputs.Integer.OutputPin",
+                "ID": "__OpenWireRootUnit__.CustomCode3.Outputs._Item1.OutputPin"
+              }
+            },
+            "+": "TArduinoTextMultiSource"
+          },
+          "Type": "Component",
+          "Y": 1504
+        },
+        {
+          "X": 496,
+          "Name": "MultiSource3",
+          "Instance": {
+            "OutputPins": {
+              "Count": 2,
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "Name": "__OpenWireRootUnit__.DisplayNextion1.Elements.Modifiers.Set String.ValueInputPin",
+                      "ID": "__OpenWireRootUnit__.DisplayNextion1.Elements.*._2.Modifiers.*._0.ValueInputPin"
+                    }
+                  ]
+                },
+                {
+                  "Type": "ptSource",
+                  "SinkPins": [
+                    {
+                      "Name": "__OpenWireRootUnit__.DisplayNextion1.Elements.Text.Modifiers.Set String.ClockInputPin",
+                      "ID": "__OpenWireRootUnit__.DisplayNextion1.Elements._Item2.Modifiers._Item0.ClockInputPin"
+                    }
+                  ]
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "Name": "__OpenWireRootUnit__.CustomCode3.Outputs.Integer.OutputPin",
+                "ID": "__OpenWireRootUnit__.CustomCode3.Outputs._Item2.OutputPin"
+              }
+            },
+            "+": "TArduinoTextMultiSource"
+          },
+          "Type": "Component",
+          "Y": 1616
+        }
+      ]
+    }
+  ]
+}
